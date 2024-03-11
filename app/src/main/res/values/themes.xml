@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--Getting rid of initial Splash Screen-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/whiteblue</item>
+    </style>
+
+    <style name="Theme.WeatherApplication" parent="Base.Theme.WeatherApplication" />
+
+</resources>
