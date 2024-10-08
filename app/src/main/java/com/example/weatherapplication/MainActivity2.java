@@ -38,7 +38,7 @@ public class MainActivity2 extends AppCompatActivity implements SelectListener{
     ArrayList<WeatherModel> weatherModels = new ArrayList<>();
 
     SearchView searchView;
-    String APIkey = "18eef754aa63a31562233b418524d875";
+    String APIkey = "my_API_key";    // need to insert correct key to work!
     String url = "http://api.openweathermap.org/data/2.5/weather";
     String filename = "citiesList.txt";
     FileInputStream inputStream = null;
